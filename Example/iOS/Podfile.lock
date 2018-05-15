@@ -1,35 +1,50 @@
 PODS:
-  - AXPhotoViewer (1.4.1):
-    - AXPhotoViewer/Lite (= 1.4.1)
-  - AXPhotoViewer/Core (1.4.1):
+  - AXPhotoViewer/Core (1.4.3):
     - AXStateButton (>= 1.1.3)
     - FLAnimatedImage (>= 1.0.0)
     - FLAnimatedImage-tvOS (>= 1.0.16)
-  - AXPhotoViewer/Lite (1.4.1):
+  - AXPhotoViewer/Nuke (1.4.3):
     - AXPhotoViewer/Core
+    - Nuke (>= 7.0)
+    - Nuke-FLAnimatedImage-Plugin (>= 5.0)
   - AXStateButton (1.1.4)
   - DRPLoadingSpinner (1.3.1):
     - DRPLoadingSpinner/core (= 1.3.1)
   - DRPLoadingSpinner/core (1.3.1)
   - FLAnimatedImage (1.0.12)
+  - Nuke (7.0)
+  - Nuke-FLAnimatedImage-Plugin (5.0):
+    - FLAnimatedImage (~> 1.0)
+    - Nuke (~> 7.0)
   - Reveal-SDK (13)
 
 DEPENDENCIES:
-  - AXPhotoViewer (from `../../AXPhotoViewer.podspec`)
+  - AXPhotoViewer/Nuke (from `../../AXPhotoViewer.podspec`)
   - DRPLoadingSpinner
   - Reveal-SDK
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AXStateButton
+    - DRPLoadingSpinner
+    - FLAnimatedImage
+    - Nuke
+    - Nuke-FLAnimatedImage-Plugin
+    - Reveal-SDK
+
 EXTERNAL SOURCES:
   AXPhotoViewer:
-    :path: ../../AXPhotoViewer.podspec
+    :path: "../../AXPhotoViewer.podspec"
 
 SPEC CHECKSUMS:
-  AXPhotoViewer: f4dc4ed6eb074da8bbdcb63176aeb5f6258c2187
+  AXPhotoViewer: c68721f8945da3be640ba3147216615566bfe355
   AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
   DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Nuke: 3c388e412b320012d666015d878bad44c90d63fa
+  Nuke-FLAnimatedImage-Plugin: 6dfb9335ce298eaff9fdfed8d20d1bbfb2a6c326
   Reveal-SDK: ccc2b0f8014965ea448b7534a7c2c8da232b75e8
 
-PODFILE CHECKSUM: d96ab48c14fabd3c322f46fc79f17f99bc280c32
+PODFILE CHECKSUM: 78fd77a8910279018c99befd389e6ee1162cc1b6
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

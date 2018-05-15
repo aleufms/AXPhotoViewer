@@ -10,6 +10,6 @@ target 'AXPhotoViewerExample' do
   pod 'DRPLoadingSpinner'
 
   # AXPhotoViewer
-  pod 'AXPhotoViewer', :path => '../../AXPhotoViewer.podspec'
+  pod 'AXPhotoViewer/Nuke', :path => '../../AXPhotoViewer.podspec'
 
 end
